@@ -10,10 +10,12 @@ body{
     color: white;
     margin-top: 10px;
     /* background: linear-gradient(90deg, rgb(5, 188, 243) 15%, rgb(9, 124, 159) 30%);  */
-    background-image: url('pexels-nickkwanhk-2745258.jpg');
-    background-position: center;
+    background-image: url('screenshot01.png');
+    /* background-image: url('pexels-nickkwanhk-2745258.jpg'); */
+    background-position:center;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    background-size:auto;
     /* border-style: dotted; */
 }
 
