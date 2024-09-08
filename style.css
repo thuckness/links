@@ -12,10 +12,12 @@ body{
     /* background: linear-gradient(90deg, rgb(5, 188, 243) 15%, rgb(9, 124, 159) 30%);  */
     background-image: url('screenshot01.png');
     /* background-image: url('pexels-nickkwanhk-2745258.jpg'); */
+    background-color: black;
     background-position:center;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size:auto;
+    background-size:1920px;
+    /* background-size:auto; */
     /* border-style: dotted; */
 }
 
@@ -51,49 +53,6 @@ p{
     border-radius: 10px;
 }
 
-.btn-tiles{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap: nowrap;
-    /* background-color: rgba(128, 128, 128, 0.5); */
-    background-color: black;
-    opacity: 0.7;
-    /* background-color: black; */
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-size: 11px;
-    /* letter-spacing: 3px; */
-    /* font-size: 16px; */
-    font-weight: 600;
-    color: whitesmoke;
-    width: 220px;
-    height: 55px;
-    /* width: 272px;
-    height: 76px; */
-    border-width: 1px;
-    border-color: grey;
-    border-radius: 10px;
-    margin: 2px;
-    /* margin-top: 5px; */
-    padding: 5px;
-    gap: 2px;
-    background: gray;
-    background: linear-gradient(270deg, rgb(54, 51, 51, 1) 15%, rgb(88, 92, 99, 1) 72%); 
-    /* transition  */
-    /* transition: background-color 0.2s ease; */
-}
-
-.btn-tiles:hover{
-    background-color: rgba(128, 128, 128, 0.726);
-    border-color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 11px;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
 .btn-tiles-cab{
     display: flex;
     flex-direction: row;
@@ -101,11 +60,12 @@ p{
     align-items:center;
     flex-wrap: nowrap;
     background-color: rgba(128, 128, 128, 0.5);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
-    opacity: 0.9;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     /* font-size: 19px; */
-    font-weight: 700;
+    opacity: 0.9;
     /* letter-spacing: 3px; */
     color: white;
     width: 220px;
@@ -126,14 +86,61 @@ p{
 }
 
 .btn-tiles-cab:hover{
+    font-size: 14px;
+    font-weight: 600;
     background-color:  rgb(179, 176, 176);
     /* background-color: rgba(128, 128, 128, 0.726); */
     border-color: white;
     border-radius: 10px;
     cursor: pointer;
-    letter-spacing: 3px;
-    font-weight: 800;
+    letter-spacing: 3px;  
 }
+
+.btn-tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+    /* background-color: rgba(128, 128, 128, 0.5); */
+    background-color: black;
+    opacity: 0.7;
+    /* background-color: black; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    /* font-weight: 400; */
+    /* letter-spacing: 3px; */
+    /* font-size: 16px; */
+    color: white;
+    width: 220px;
+    height: 55px;
+    /* width: 272px;
+    height: 76px; */
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 10px;
+    margin: 2px;
+    /* margin-top: 5px; */
+    padding: 5px;
+    gap: 2px;
+    background: gray;
+    background: linear-gradient(270deg, rgb(54, 51, 51, 1) 15%, rgb(88, 92, 99, 1) 72%); 
+    /* transition  */
+    /* transition: background-color 0.2s ease; */
+}
+
+.btn-tiles:hover{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.726);
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    
+}
+
+
 
 .btn-hidden{
     display: flex;
