@@ -60,15 +60,15 @@ p{
     align-items:center;
     flex-wrap: nowrap;
     background-color: rgba(128, 128, 128, 0.5);
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 12px;
     font-weight: 400;
     /* font-size: 19px; */
     opacity: 0.9;
     /* letter-spacing: 3px; */
     color: white;
-    width: 220px;
+    width: 230px;
     height: 55px;
     /* width: 272px;
     height: 76px; */
@@ -86,7 +86,7 @@ p{
 }
 
 .btn-tiles-cab:hover{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     background-color:  rgb(179, 176, 176);
     /* background-color: rgba(128, 128, 128, 0.726); */
@@ -107,12 +107,12 @@ p{
     opacity: 0.7;
     /* background-color: black; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
-    /* font-weight: 400; */
+    font-size: 12px;
+    font-weight: 400;
     /* letter-spacing: 3px; */
     /* font-size: 16px; */
     color: white;
-    width: 220px;
+    width: 230px;
     height: 55px;
     /* width: 272px;
     height: 76px; */
@@ -130,7 +130,7 @@ p{
 }
 
 .btn-tiles:hover{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     background-color: rgba(128, 128, 128, 0.726);
     border-color: white;
