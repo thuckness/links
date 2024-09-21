@@ -155,3 +155,30 @@ p{
     height: 20px;
     
 }
+
+.irtopo {
+    display: flex;
+    flex-direction: row;
+    background: red;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--dois);
+  }
+
+.irtopo a {
+    display: block;
+    color: var(--dois)!important;
+    padding: 12px 8px;
+    text-decoration: none!important;
+  }
+
+.irtopo a:hover {
+    color: green !important;
+  }
