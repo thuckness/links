@@ -140,8 +140,6 @@ p{
     
 }
 
-
-
 .btn-hidden{
     display: flex;
     flex-direction: row;
@@ -166,19 +164,21 @@ p{
     align-items: center;
     justify-content: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
     bottom: 25px;
-    right: 25px;
+    right: 15px;
     border-radius: 50%;
-    border: 1px solid var(--dois);
+    /* transition: 0.5s; */
+    /* border: 1px solid var(--dois); */
   }
 
 .irtopo a {
     display: block;
-    color: var(--dois)!important;
+    /* color: var(--dois)!important; */
     padding: 12px 8px;
-    text-decoration: none!important;
+    text-decoration: none;
   }
 
 .irtopo a:hover {
-    color: green !important;
+    color: white!important;
   }
