@@ -120,13 +120,11 @@ p{
     border-color: grey;
     border-radius: 10px;
     margin: 2px;
-    /* margin-top: 5px; */
     padding: 5px;
     gap: 2px;
     background: gray;
     background: linear-gradient(270deg, rgb(54, 51, 51, 1) 15%, rgb(88, 92, 99, 1) 72%); 
-    /* transition  */
-    /* transition: background-color 0.2s ease; */
+    
 }
 
 .btn-tiles:hover{
@@ -146,7 +144,6 @@ p{
     justify-content:space-between;
     align-items:center;
     flex-wrap: nowrap;
-    /* background-color: rgba(128, 128, 128, 0.5); */
     background-color: none;
     opacity: 0;
     width: 220px;
@@ -158,27 +155,50 @@ p{
     display: flex;
     flex-direction: row;
     background: red;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     position: fixed;
     align-items: center;
     justify-content: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     bottom: 25px;
     right: 15px;
     border-radius: 50%;
-    /* transition: 0.5s; */
-    /* border: 1px solid var(--dois); */
   }
 
 .irtopo a {
     display: block;
-    /* color: var(--dois)!important; */
     padding: 12px 8px;
     text-decoration: none;
   }
 
 .irtopo a:hover {
+    color: white!important;
+  }
+
+  .irhome {
+    display: flex;
+    flex-direction: row;
+    background: red;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    bottom: 85px;
+    right: 15px;
+    border-radius: 50%;
+   }
+
+.irhome a {
+    display: block;
+    padding: 12px 8px;
+    text-decoration: none;
+  }
+
+.irhome a:hover {
     color: white!important;
   }
