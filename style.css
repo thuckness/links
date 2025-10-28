@@ -68,8 +68,10 @@ p{
     opacity: 0.9;
     /* letter-spacing: 3px; */
     color: white;
-    width: 230px;
-    height: 55px;
+    width: 195px;
+    height: 49px;
+    /* width: 230px;
+    height: 55px; */
     /* width: 272px;
     height: 76px; */
     /* width: 340px; */
@@ -112,10 +114,12 @@ p{
     /* letter-spacing: 3px; */
     /* font-size: 16px; */
     color: white;
-    width: 230px;
-    height: 55px;
-    /* width: 272px;
-    height: 76px; */
+    
+    width: 195px;
+    height: 49px;
+    /* width: 230px;
+    height: 55px; */
+
     border-width: 1px;
     border-color: grey;
     border-radius: 10px;
