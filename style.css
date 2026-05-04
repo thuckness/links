@@ -16,7 +16,8 @@ body{
     background-position:center;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size:1920px;
+    background-size:cover;
+    /* background-size:1920px; */
     /* background-size:auto; */
     /* border-style: dotted; */
 }
